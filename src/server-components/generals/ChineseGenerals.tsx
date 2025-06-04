@@ -164,7 +164,7 @@ const ChineseGenerals: FC<ChineseGeneralsProps> = async ({ searchParams }) => {
         </Link>
         <div className="px-2 xs:px-4 w-full max-w-4xl">
           <div className="text-2xl font-bold my-2 border-2 border-white bg-black/50 rounded-lg px-4 py-2 w-fit mx-auto text-center whitespace-nowrap">
-            Tướng Quân Trung Quốc
+            Nhân vật lịch sử Trung Quốc
           </div>
           <p className="text-center text-base xs:text-lg text-red-400">
             Không tải được danh sách tướng. Vui lòng kiểm tra Firebase Storage.
@@ -184,7 +184,7 @@ const ChineseGenerals: FC<ChineseGeneralsProps> = async ({ searchParams }) => {
       </Link>
       <div className="px-2 xs:px-4 w-full max-w-4xl">
         <div className="text-2xl font-bold my-2 border-2 border-white bg-black/50 rounded-lg px-4 py-2 w-fit mx-auto text-center whitespace-nowrap">
-          Tướng Quân Trung Quốc
+          Nhân vật lịch sử Trung Quốc
         </div>
         {generals.length === 0 ? (
           <p className="text-center text-base xs:text-lg">
