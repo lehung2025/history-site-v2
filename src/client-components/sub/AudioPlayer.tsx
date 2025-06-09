@@ -6,7 +6,7 @@ import { GiBigWave } from "react-icons/gi";
 import { motion } from "framer-motion";
 
 const playlist = [
-  { src: "/audio/audio-machine-path-to-freedom.mp3" },
+  { src: "/audio/two-steps-from-hell-to-glory.mp3" },
   { src: "/audio/The-Yellow-Heaven.mp3" },
   { src: "/audio/epic-saga.mp3" },
   { src: "/audio/guardians-at-the-gates.mp3" },
@@ -75,6 +75,8 @@ const AudioPlayer: React.FC = () => {
     }
   }, []);
 
+  // handle audio error
+  
   const togglePlay = () => {
     if (audioRef.current) {
       if (isPlaying) {
@@ -115,12 +117,14 @@ const AudioPlayer: React.FC = () => {
       <button
         onClick={handlePrevious}
         className="p-1 sm:p-2 bg-blue-700/50 rounded-full hover:bg-blue-600/70 transition-all duration-200"
+        aria-label={isPlaying ? "Pause" : "Play"}
       >
         <FaBackward size={12} className="sm:w-4 sm:h-4" />
       </button>
       <button
         onClick={togglePlay}
         className="p-1 sm:p-2 bg-blue-700/50 rounded-full hover:bg-blue-600/70 transition-all duration-200"
+        aria-label={isPlaying ? "Pause" : "Play"}
       >
         {isPlaying ? (
           <FaPause size={12} className="sm:w-4 sm:h-4" />
@@ -131,6 +135,7 @@ const AudioPlayer: React.FC = () => {
       <button
         onClick={handleNext}
         className="p-1 sm:p-2 bg-blue-700/50 rounded-full hover:bg-blue-600/70 transition-all duration-200"
+        aria-label={isPlaying ? "Pause" : "Play"}
       >
         <FaForward size={12} className="sm:w-4 sm:h-4" />
       </button>

@@ -2,7 +2,7 @@ const Introduction = () => {
   const contactText = '"liên hệ"';
   return (
     <div className="flex flex-col items-center text-white">
-      <p className="text-base sm:text-lg text-center max-w-full sm:max-w-2xl my-4 border-2 border-white bg-black/50 rounded-lg px-4 sm:px-6 md:px-8 py-4">
+      <p className="text-base sm:text-lg text-left max-w-full sm:max-w-2xl my-4 border-2 border-white bg-black/50 rounded-lg px-4 sm:px-6 md:px-8 py-4">
         Trước hết, xin kính chào quý vị. Là một người đam mê môn lịch sử, và
         luôn muốn tìm hiểu về lịch sử nước nhà, tôi, một lập trình viên lâu năm
         trong ngành công nghệ thông tin, đã dành tâm huyết của mình ra để nghiên
