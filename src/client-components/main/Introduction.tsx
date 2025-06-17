@@ -2,7 +2,10 @@ const Introduction = () => {
   const contactText = '"liên hệ"';
   return (
     <div className="flex flex-col items-center text-white">
-      <p className="text-base sm:text-lg text-left max-w-full sm:max-w-2xl my-4 border-2 border-white bg-black/50 rounded-lg px-4 sm:px-6 md:px-8 py-4">
+      <div className="text-base sm:text-lg text-left max-w-full sm:max-w-2xl my-4 border-2 border-white bg-black/50 rounded-lg px-4 sm:px-6 md:px-8 py-4">
+        <div className="text-center text-3xl">
+          <strong>Giới thiệu về trang web</strong>
+        </div>
         Trước hết, xin kính chào quý vị. Là một người đam mê môn lịch sử, và
         luôn muốn tìm hiểu về lịch sử nước nhà, tôi, một lập trình viên lâu năm
         trong ngành công nghệ thông tin, đã dành tâm huyết của mình ra để nghiên
@@ -18,7 +21,7 @@ const Introduction = () => {
         Cuối cùng, trong quá trình xây dựng trang web này, nếu quý vị có yêu cầu
         gì muốn sửa đổi, hay cập nhật về trang web, có thể liên lạc với tôi qua
         phần {contactText}.<br />
-      </p>
+      </div>
     </div>
   );
 };

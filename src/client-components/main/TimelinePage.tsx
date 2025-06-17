@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import TimelineIntroduction from "../sub/TimelineIntroduction";
 
 const Timeline = () => {
   return (
@@ -9,7 +10,7 @@ const Timeline = () => {
         href="/"
         className="text-white bg-transparent border border-gray-300 hover:bg-emerald-700 active:bg-emerald-700 mt-6 px-4 py-2 rounded-lg mb-4"
       >
-        ← Quay về trang chủ 
+        ← Quay về trang chủ
       </Link>
       <div className="px-4">
         <div className="text-2xl font-bold my-4 border-2 border-white bg-black/50 rounded-lg px-4 py-2 w-fit mx-auto text-center whitespace-nowrap">
@@ -63,6 +64,9 @@ const Timeline = () => {
             Trung Quốc (từ 220 tới 280, sau đó là từ Nam Hán trở đi)
           </p>
         </Link>
+      </div>
+      <div className="px-4">
+        <TimelineIntroduction />
       </div>
     </div>
   );

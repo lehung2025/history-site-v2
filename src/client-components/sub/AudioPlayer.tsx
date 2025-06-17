@@ -6,18 +6,18 @@ import { GiBigWave } from "react-icons/gi";
 import { motion } from "framer-motion";
 
 const playlist = [
-  { src: "/audio/two-steps-from-hell-to-glory.mp3" },
   { src: "/audio/The-Yellow-Heaven.mp3" },
+  { src: "/audio/Victory-Epic-Remix.mp3" },
   { src: "/audio/epic-saga.mp3" },
+  { src: "/audio/Descent-Into-Cerberon.mp3" },
   { src: "/audio/guardians-at-the-gates.mp3" },
   { src: "/audio/heroic-song.mp3" },
   { src: "/audio/lost-raiders.mp3" },
   { src: "/audio/Twelve-Titans-Music_Act-Of-Will.mp3" },
   { src: "/audio/Twelve-Titans-Music_Protect-Us-From-Evil.mp3" },
-  { src: "/audio/Victory-Epic-Remix.mp3" },
-  { src: "/audio/Descent-Into-Cerberon.mp3" },
-  { src: "/audio/main-theme-samanosuke.mp3" },
   { src: "/audio/we-rise.mp3" },
+  { src: "/audio/main-theme-samanosuke.mp3" },
+  { src: "/audio/two-steps-from-hell-to-glory.mp3" },
 ];
 
 const AudioPlayer: React.FC = () => {
@@ -76,7 +76,7 @@ const AudioPlayer: React.FC = () => {
   }, []);
 
   // handle audio error
-  
+
   const togglePlay = () => {
     if (audioRef.current) {
       if (isPlaying) {
