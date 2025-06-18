@@ -1,18 +1,31 @@
+// src/app/generals/tuong-quan-viet-nam/[slug]/page.tsx
+import { cachedGetGeneralBioBySlug } from "@/lib/generalBios";
 import VietGeneralBio from "@/server-components/generals-bio/VietGeneralBio";
 import type { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: "Vietnamese General Biography | Chronicles of Heroes",
-  description: "Biography of a Vietnamese general from the feudal era",
-};
+type Props = { params: Promise<{ slug: string }> };
 
-export default function Bio() {
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { slug } = await params; // Await params to get slug
+  const general = await cachedGetGeneralBioBySlug(slug);
+  if (!general) {
+    return {
+      title: "Không tìm thấy | Chronicles of Heroes",
+      description: "Không tìm thấy tiểu sử nhân vật.",
+    };
+  }
+  return {
+    title: `${general.name} | Chronicles of Heroes`,
+    description: general.bio.slice(0, 160),
+  };
+}
+
+export default async function Bio({ params }: Props) {
+  const { slug } = await params; // Await params to get slug
+  const general = await cachedGetGeneralBioBySlug(slug);
   return (
-    // Do not remove these fragments
     <>
-    {/* The bio is currently not running, due to me changing the code. Besides, these datas are fake. I have not installed Firebase yet, to avoid messing things up. */}
-    {/* I need to set up language switcher and zustand before moving on to firebase */}
-      <VietGeneralBio  />
+      <VietGeneralBio general={general} />
     </>
   );
 }

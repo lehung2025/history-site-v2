@@ -6,9 +6,9 @@ import { GiBigWave } from "react-icons/gi";
 import { motion } from "framer-motion";
 
 const playlist = [
+  { src: "/audio/kirin-ga-kuru-warrior-past.mp3" },
   { src: "/audio/The-Yellow-Heaven.mp3" },
   { src: "/audio/Victory-Epic-Remix.mp3" },
-  { src: "/audio/epic-saga.mp3" },
   { src: "/audio/Descent-Into-Cerberon.mp3" },
   { src: "/audio/guardians-at-the-gates.mp3" },
   { src: "/audio/heroic-song.mp3" },

@@ -3,7 +3,7 @@ const TimelineIntroduction = () => {
     <div className="flex flex-col items-center text-white">
       <div className="text-base sm:text-lg text-left max-w-full sm:max-w-2xl my-4 border-2 border-white bg-black/50 rounded-lg px-4 sm:px-6 md:px-8 py-4">
         <div className="text-center text-3xl">
-          <strong>Dòng thời gian</strong>
+          <strong>Giới thiệu về dòng thời gian</strong>
         </div>
         Như tôi đã giới thiệu ở trang chủ, thì Lịch sử của Việt Nam, Nhật Bản và
         Trung Quốc được đánh dấu bởi các triều đại và thời kỳ lịch sử quan
@@ -43,8 +43,24 @@ const TimelineIntroduction = () => {
         thắng lợi của khởi nghĩa Lam Sơn.
         <br />- <em>Nhà Mạc (1527–1592)</em>: Chiếm ngôi nhà Lê, dẫn đến chiến
         tranh Nam Bắc triều về sau.
-        <br />- <em>Nhà Lê trung hưng (1533–1789)</em>: Với sự kiểm soát của các
-        chúa Trịnh và Nguyễn.
+        <br />- <em>Nam Bắc Triều (1533–1593)</em>:
+        <br />
+           - Đất nước bị chia cắt giữa nhà Mạc (Bắc Triều) ở phía Bắc và nhà Hậu
+        Lê (Nam Triều) ở phía Nam.
+        <br />
+           - Nhà Mạc do Mạc Đăng Dung lập nên sau khi cướp ngôi năm 1527; nhà
+        Hậu Lê được Nguyễn Kim khôi phục năm 1533.
+        <br />
+           - Kết thúc khi quân Lê-Trịnh chiếm Thăng Long năm 1593, tàn quân nhà
+        Mạc cầm cự ở Cao Bằng đến 1677.
+        <br />- <em>Nhà Lê trung hưng (1533–1789)</em>:
+        <br />
+           - Bao gồm thời kỳ Nam Bắc Triều, sau đó là{" "}
+        <strong>Trịnh–Nguyễn phân tranh (1620–1673)</strong>, khi chúa Trịnh
+        kiểm soát phía Bắc và chúa Nguyễn kiểm soát phía Nam.
+        <br />
+           - Vua Lê chỉ còn danh nghĩa, quyền lực thực sự nằm trong tay các
+        chúa. 
         <br />- <em>Tây Sơn và Nhà Nguyễn (1778–1802)</em>: Nội chiến giữa nhà
         Tây Sơn và Nhà Nguyễn
         <br />- <em>Nhà Nguyễn (1802–1945)</em>: Triều đại cuối cùng, kết thúc

@@ -1,77 +1,125 @@
+import Link from "next/link";
+
 const DynastyIntroduction = () => {
   return (
     <div className="flex flex-col items-center text-white">
-      <div className="text-base sm:text-lg text-left max-w-full sm:max-w-2xl my-4 border-2 border-white bg-black/50 rounded-lg px-4 sm:px-6 md:px-8 py-4">
-        <div className="text-center text-2xl">
+      <div className="text-base sm:text-lg text-left max-w-full sm:max-w-2xl my-4 border-2 border-white bg-black/50 rounded-lg px-4 sm:px-6 md:px-8 py-4 prose prose-invert">
+        <h2 className="text-center text-2xl">
           <strong>Giới thiệu</strong>
-        </div>
-        Lịch sử của Việt Nam, Nhật Bản và Trung Quốc được đánh dấu bởi các triều
-        đại và thời kỳ lịch sử quan trọng. Trong trang web này, chúng ta sẽ tập
-        trung vào các giai đoạn sau:
-        <br />- <strong>Việt Nam (938–1945)</strong>: Từ triều đại Nhà Ngô đến
-        Nhà Nguyễn, phản ánh sự phát triển độc lập của dân tộc Việt Nam dưới ảnh
-        hưởng của Trung Quốc.
-        <br />- <strong>Nhật Bản (1467–1868)</strong>: Từ thời kỳ Sengoku (chiến
-        quốc) đến cuối thời kỳ Edo, đánh dấu sự thống nhất và phát triển nội địa
-        của Nhật Bản.
-        <br />- <strong>Trung Quốc</strong>: Thời kỳ Tam Quốc (220–280) và từ
-        triều đại Nam Hán (917–971) trở đi, bao gồm các triều đại Tống, Nguyên,
-        Minh, Thanh, với trọng tâm là các giai đoạn có tương tác với lịch sử
-        Việt Nam.
-        <br />
-        <br />
-        <strong>Các triều đại tại Việt Nam:</strong>
-        <br />- <em>Nhà Ngô (939–965)</em>: Triều đại đầu tiên sau khi thoát
-        khỏi sự đô hộ của nhà Nam Hán.
-        <br />- <em>Nhà Đinh (968–980)</em>: Đinh Bộ Lĩnh thống nhất đất nước và
-        đặt tên là Đại Cồ Việt.
-        <br />- <em>Nhà Tiền Lê (980–1009)</em>: Do Lê Hoàn lập nên.
-        <br />- <em>Nhà Lý (1009–1225)</em>: Thời kỳ phát triển văn hóa và thể
-        chế, đổi tên nước thành Đại Việt năm 1054.
-        <br />- <em>Nhà Trần (1226–1400)</em>: Nổi tiếng với việc đánh bại các
-        cuộc xâm lược của Mông Nguyên.
-        <br />- <em>Nhà Hồ (1400–1407)</em>: Triều đại ngắn ngủi, dẫn đến sự xâm
-        lược của nhà Minh.
-        <br />- <em>Giao Chỉ dưới thời Minh (1407–1427)</em>: Thời kỳ bị đô hộ
-        bởi Trung Quốc.
-        <br />- <em>Nhà Hậu Lê (1428–1527)</em>: Do Lê Lợi lập nên sau khi đánh
-        đuổi quân Minh.
-        <br />- <em>Nhà Mạc (1527–1592)</em>: Chiếm ngôi nhà Lê, dẫn đến thời kỳ
-        phân tranh.
-        <br />- <em>Nhà Lê trung hưng (1533–1789)</em>: Với sự kiểm soát của các
-        chúa Trịnh và Nguyễn.
-        <br />- <em>Tây Sơn và Nhà Nguyễn (1778–1802)</em>: Nội chiến giữa nhà
-        Tây Sơn và Nhà Nguyễn
-        <br />- <em>Nhà Nguyễn (1802–1945)</em>: Triều đại cuối cùng, kết thúc
-        với sự thoái vị của ông Bảo Đại.
-        <br />
-        <br />
-        <strong>Các thời kỳ ở Nhật Bản:</strong>
-        <br />- <em>Thời kỳ Muromachi (1336–1573)</em>: Shogunate Ashikaga, phát
-        triển thiền và nghi lễ trà; từ 1467 bắt đầu thời kỳ Sengoku với chiến
-        tranh liên miên.
-        <br />- <em>Thời kỳ Azuchi-Momoyama (1573–1603)</em>: Thống nhất Nhật
-        Bản dưới Oda Nobunaga và Toyotomi Hideyoshi, giới thiệu văn hóa
-        Momoyama.
-        <br />- <em>Thời kỳ Edo (1603–1868)</em>: Shogunate Tokugawa, chính sách
-        đóng cửa quốc gia (sakoku), phát triển văn hóa ukiyo-e và kabuki.
-        <br />
-        <br />
-        <strong>Các triều đại ở Trung Quốc:</strong>
-        <br />- <em>Tam Quốc (220–280)</em>: Thời kỳ phân chia và chiến tranh
-        giữa Ngụy, Thục, Ngô.
-        <br />- <em>Nam Hán (917–971)</em>: Một trong những nước thời Ngũ Đại
-        Thập Quốc, có quan hệ với Việt Nam thông qua trận Bạch Đằng năm 938.
-        <br />- <em>Nhà Tống (960–1279)</em>: Thống nhất Trung Quốc sau Ngũ Đại,
-        tiến bộ kinh tế và văn hóa.
-        <br />- <em>Nhà Nguyên (1271–1368)</em>: Thời kỳ cai trị của người Mông
-        Cổ.
-        <br />- <em>Nhà Minh (1368–1644)</em>: Phục hồi văn hóa Hán, khám phá
-        biển với hạm đội Trịnh Hòa.
-        <br />- <em>Nhà Thanh (1644–1912)</em>: Triều đại Mãn Thanh, mở rộng
-        lãnh thổ và cải cách hiện đại hóa.
-        <br />
-        <br />
+        </h2>
+        <p>
+          Trang web này khám phá lịch sử Việt Nam, Nhật Bản, và Trung Quốc qua
+          các triều đại và thời kỳ quan trọng, nhấn mạnh thành tựu nổi bật:
+        </p>
+        <ul>
+          <li>
+            <strong>Việt Nam</strong>: Từ Ngô Quyền đến triều Nguyễn, phản ánh
+            tinh thần độc lập dân tộc.{" "}
+            <Link
+              href="/timelines/vietnam-timelines"
+              className="underline hover:text-gray-300"
+            >
+              Xem dòng thời gian
+            </Link>
+          </li>
+          <li>
+            <strong>Nhật Bản</strong>: Từ thời Sengoku đến thời Edo, đánh dấu sự
+            thống nhất và văn hóa độc đáo.{" "}
+            <Link
+              href="/timelines/japan-timelines"
+              className="underline hover:text-gray-300"
+            >
+              Xem dòng thời gian
+            </Link>
+          </li>
+          <li>
+            <strong>Trung Quốc</strong>: Từ Tam Quốc và Nam Hán đến nhà Thanh,
+            tương tác với lịch sử Việt Nam.{" "}
+            <Link
+              href="/timelines/china-timelines"
+              className="underline hover:text-gray-300"
+            >
+              Xem dòng thời gian
+            </Link>
+          </li>
+        </ul>
+
+        <h3>Lý do chọn mốc thời gian</h3>
+        <p>
+          Mốc 938 (Việt Nam) và 1467 (Nhật Bản) đánh dấu các bước ngoặt lớn:
+          Việt Nam giành độc lập qua trận Bạch Đằng, Nhật Bản bước vào thời
+          Sengoku dẫn đến thống nhất. Các mốc này dễ hiểu, khơi gợi tự hào dân
+          tộc, và phù hợp với người đọc Việt Nam. Do khó tìm tư liệu hình ảnh
+          cho giai đoạn sớm hơn, chúng tôi tập trung vào các giai đoạn trình bày
+          sống động.
+        </p>
+
+        <h3>Thành tựu nổi bật của các triều đại</h3>
+        <p>
+          <strong>Việt Nam:</strong>
+        </p>
+        <ul>
+          <li>
+            Nhà Ngô, Đinh, Tiền Lê: Giành độc lập từ Trung Quốc, đặt nền móng
+            Đại Cồ Việt.
+          </li>
+          <li>
+            Nhà Lý: Dời đô Thăng Long, đổi tên Đại Việt, phát triển Nho giáo.
+          </li>
+          <li>Nhà Trần: Đánh bại Mông Nguyên ba lần, rực rỡ thơ văn.</li>
+          <li>Nhà Hồ: Cải cách hành chính táo bạo.</li>
+          <li>Nhà Hậu Lê: Khôi phục độc lập, ban hành luật Hồng Đức.</li>
+          <li>
+            Nam Bắc Triều: Nội chiến Mạc vs. Lê-Trịnh, phát triển văn hóa.
+          </li>
+          <li>Nhà Lê trung hưng: Mở rộng Nam Bộ, thúc đẩy thương mại.</li>
+          <li>Nhà Tây Sơn: Đánh bại quân Xiêm và Thanh.</li>
+          <li>Nhà Nguyễn: Thống nhất Việt Nam, xây kinh đô Huế.</li>
+        </ul>
+        <p>
+          <strong>Nhật Bản:</strong>
+        </p>
+        <ul>
+          <li>
+            Thời kỳ Sengoku: Đột phá chiến thuật quân sự, Thiền tông nở rộ.
+          </li>
+          <li>
+            Thời kỳ Azuchi-Momoyama: Thống nhất Nhật Bản, phát triển trà đạo.
+          </li>
+          <li>
+            Thời kỳ Edo: Hòa bình 260 năm, văn hóa thị dân (ukiyo-e, kabuki).
+          </li>
+        </ul>
+        <p>
+          <strong>Trung Quốc:</strong>
+        </p>
+        <ul>
+          <li>Tam Quốc: Sáng tạo văn học, di sản Tam Quốc Diễn Nghĩa.</li>
+          <li>Nam Hán: Thúc đẩy giao thương Đông Nam Á.</li>
+          <li>Nhà Tống: Phát minh la bàn, in ấn, dẫn đầu kinh tế.</li>
+          <li>Nhà Nguyên: Mở rộng Con đường Tơ lụa.</li>
+          <li>Nhà Minh: Thám hiểm biển với Trịnh Hòa.</li>
+          <li>Nhà Thanh: Mở rộng lãnh thổ lớn nhất.</li>
+        </ul>
+
+        <h3>Nguồn tham khảo</h3>
+        <ul>
+          <li>
+            <em>Đại Việt Sử Ký Toàn Thư</em> (Ngô Sĩ Liên, 1479, Nhà xuất bản
+            Văn hóa Thông tin)
+          </li>
+          <li>
+            <em>Nihon Shoki</em> (720, University of Tokyo Press, bản dịch)
+          </li>
+          <li>
+            <em>Tam Quốc Chí</em> (Trần Thọ, thế kỷ 3, Nhà xuất bản Khoa học Xã
+            hội, bản dịch)
+          </li>
+          <li>
+            <em>Tư Trị Thông Giám</em> (Tư Mã Quang, thời Tống, Nhà xuất bản
+            Khoa học Xã hội)
+          </li>
+        </ul>
       </div>
     </div>
   );
