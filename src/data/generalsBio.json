@@ -11,7 +11,7 @@
     {
       "id": "02",
       "name": "Bùi Đắc Tuyên",
-      "slug": "bui-dac-tuyen",
+      "slug": "bui-đac-tuyen",
       "bio": "Tướng nhà Tây Sơn, phò tá Nguyễn Huệ trong chiến dịch đánh quân Thanh năm 1789, góp công lớn ở trận Ngọc Hồi - Đống Đa.",
       "image": "https://firebasestorage.googleapis.com/v0/b/next-js-history.appspot.com/o/vietnam-generals%2FB%C3%B9i-%C4%90%E1%BA%AFc-Tuy%C3%AAn.jpg?alt=media&token=0110fe35-3a58-46bd-b9ff-db32a57e5fa1",
       "source": "Việt Nam Sử Lược (Trần Trọng Kim, 1919)"
@@ -19,7 +19,7 @@
     {
       "id": "03",
       "name": "Bảo Đại",
-      "slug": "bao-dai",
+      "slug": "bao-đai",
       "bio": "Hoàng đế cuối nhà Nguyễn, lên ngôi năm 1926, thoái vị năm 1945, đánh dấu chấm dứt chế độ quân chủ Việt Nam.",
       "image": "https://firebasestorage.googleapis.com/v0/b/next-js-history.appspot.com/o/vietnam-generals%2FB%E1%BA%A3o-%C4%90%E1%BA%A1i.jpg?alt=media&token=a18c1ae7-1b3d-4c46-a776-aee1531b7605",
       "source": "Đại Việt Sử Ký Toàn Thư (bản bổ sung, Nhà xuất bản Văn hóa Thông tin)"
@@ -29,7 +29,7 @@
       "name": "Chu Văn An",
       "slug": "chu-van-an",
       "bio": "Nhà giáo thời Trần, mở trường dạy học ở Huỳnh Cung, dâng Thất Trảm Sớ đề nghị xử lý tham quan, sau về ở ẩn tại núi Phượng Hoàng.",
-      "image": "https://firebasestorage.googleapis.com/v0/b/your-project-id.appspot.com/o/vietnamese_generals%2Fchu_van_an.jpg?alt=media",
+      "image": "https://firebasestorage.googleapis.com/v0/b/next-js-history.appspot.com/o/vietnam-generals%2FChu-V%C4%83n-An.jpg?alt=media&token=91d0a116-fa2a-49c0-a421-7dbe278ad929",
       "source": "Đại Việt Sử Ký Toàn Thư (Ngô Sĩ Liên, 1479)"
     },
     {
@@ -37,7 +37,7 @@
       "name": "Châu Văn Tiếp",
       "slug": "chau-van-tiep",
       "bio": "Tướng nhà Nguyễn, lập công trong trận Rạch Gầm - Xoài Mút (1785) chống Tây Sơn, góp phần khai phá miền Nam.",
-      "image": "https://firebasestorage.googleapis.com/v0/b/your-project-id.appspot.com/o/vietnamese_generals%2Fplaceholder.jpg?alt=media",
+      "image": "https://firebasestorage.googleapis.com/v0/b/next-js-history.appspot.com/o/vietnam-generals%2FCh%C3%A2u-V%C4%83n-Ti%E1%BA%BFp.PNG?alt=media&token=31e97b95-06db-47f2-9983-1801ef2f4bb2",
       "source": "Việt Nam Sử Lược (Trần Trọng Kim, 1919)"
     },
     {
@@ -51,7 +51,7 @@
     {
       "id": "07",
       "name": "Dương Đình Nghệ",
-      "slug": "duong-dinh-nghe",
+      "slug": "duong-đinh-nghe",
       "bio": "Tướng thời Tiền Ngô, đánh bại quân Nam Hán năm 931, đặt nền móng độc lập, bị Kiều Công Tiễn sát hại năm 937.",
       "image": "https://firebasestorage.googleapis.com/v0/b/next-js-history.appspot.com/o/vietnam-generals%2FD%C6%B0%C6%A1ng-%C4%90%C3%ACnh-Ngh%E1%BB%87.jpg?alt=media&token=dbdc50f3-ed31-44e8-9aab-1367b07f1417",
       "source": "Đại Việt Sử Ký Toàn Thư (Ngô Sĩ Liên, 1479)"
@@ -69,7 +69,7 @@
       "name": "Ngô Quyền",
       "slug": "ngo-quyen",
       "bio": "Vua nhà Ngô, lãnh đạo trận Bạch Đằng năm 938, đánh bại Nam Hán, mở ra thời kỳ độc lập cho Việt Nam.",
-      "image": "https://firebasestorage.googleapis.com/v0/b/your-project-id.appspot.com/o/vietnamese_generals%2Fngo_quyen.jpg?alt=media",
+      "image": "https://firebasestorage.googleapis.com/v0/b/next-js-history.appspot.com/o/vietnam-generals%2FNg%C3%B4-Quy%E1%BB%81n.PNG?alt=media&token=b6b5f19c-527e-4d1f-847e-d313180ff53e",
       "source": "Đại Việt Sử Ký Toàn Thư (Ngô Sĩ Liên, 1479)"
     },
     {
@@ -77,15 +77,23 @@
       "name": "Nguyễn Trãi",
       "slug": "nguyen-trai",
       "bio": "Mưu sĩ nhà Hậu Lê, soạn Bình Ngô Đại Cáo, góp công lớn trong khởi nghĩa Lam Sơn chống Minh, bị án oan năm 1442.",
-      "image": "https://firebasestorage.googleapis.com/v0/b/your-project-id.appspot.com/o/vietnamese_generals%2Fnguyen_trai.jpg?alt=media",
+      "image": "https://firebasestorage.googleapis.com/v0/b/next-js-history.appspot.com/o/vietnam-generals%2FNguy%E1%BB%85n-Tr%C3%A3i.jpg?alt=media&token=42889fc4-b828-491e-8bfa-0e9aa88d3bd3",
       "source": "Đại Việt Sử Ký Toàn Thư (Ngô Sĩ Liên, 1479)"
     },
     {
       "id": "11",
-      "name": "Trần Hưng Đạo",
-      "slug": "tran-hung-dao",
+      "name": "Trần Quốc Tuấn",
+      "slug": "tran-quoc-tuan",
       "bio": "Tướng nhà Trần, chỉ huy ba lần đánh bại Mông Nguyên (1258, 1285, 1288), tác giả Hịch Tướng Sĩ, biểu tượng yêu nước.",
-      "image": "https://firebasestorage.googleapis.com/v0/b/your-project-id.appspot.com/o/vietnamese_generals%2Ftran_hung_dao.jpg?alt=media",
+      "image": "https://firebasestorage.googleapis.com/v0/b/next-js-history.appspot.com/o/vietnam-generals%2FTr%E1%BA%A7n-Qu%E1%BB%91c-Tu%E1%BA%A5n.jpeg?alt=media&token=d73edb08-1359-4368-9711-4b71698389d1",
+      "source": "Đại Việt Sử Ký Toàn Thư (Ngô Sĩ Liên, 1479)"
+    },
+    {
+      "id": "12",
+      "name": "Lê Lợi",
+      "slug": "le-loi",
+      "bio": "là một nhà chính trị, nhà lãnh đạo quân sự, người đã thành lập một đội quân người Việt và lãnh đạo đội quân này chiến đấu chống lại sự chiếm đóng của quân đội nhà Minh từ năm 1418 đến lúc đánh đuổi hoàn toàn quân Minh ra khỏi Đại Việt vào năm 1428 sau đó xây dựng và tái thiết lập đất nước. Ông cũng thành công với các chiến dịch quân sự đánh dẹp các tù trưởng ở biên giới phía Bắc Đại Việt và quân đội Ai Lao bị xúi giục. Ông được coi là anh hùng, vị Hoàng đế huyền thoại của Đại Việt với tài năng quân sự, khả năng cai trị và lòng nhân ái đối với nhân dân.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/next-js-history.appspot.com/o/vietnam-generals%2FL%C3%AA-L%E1%BB%A3i.png?alt=media&token=5fe8ae11-e142-4c5e-9cb7-b929d31e860d",
       "source": "Đại Việt Sử Ký Toàn Thư (Ngô Sĩ Liên, 1479)"
     }
   ]

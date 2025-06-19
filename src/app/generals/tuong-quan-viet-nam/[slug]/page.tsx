@@ -10,8 +10,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const general = await cachedGetGeneralBioBySlug(slug);
   if (!general) {
     return {
-      title: "Không tìm thấy | Chronicles of Heroes",
-      description: "Không tìm thấy tiểu sử nhân vật.",
+      title: "Tiểu sử các nhân vật Việt Nam | Biên niên sử các anh hùng",
+      description: "Tiểu sử nhân vật",
     };
   }
   return {
