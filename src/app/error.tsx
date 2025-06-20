@@ -1,4 +1,5 @@
 "use client";
+// /src/app/error.tsx
 import { useEffect } from "react";
 
 type ErrorProps = { error: Error & { digest?: string }; reset: () => void };

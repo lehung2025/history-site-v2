@@ -11,7 +11,7 @@
     {
       "id": "02",
       "name": "Bùi Đắc Tuyên",
-      "slug": "bui-đac-tuyen",
+      "slug": "bui-dac-tuyen",
       "bio": "Tướng nhà Tây Sơn, phò tá Nguyễn Huệ trong chiến dịch đánh quân Thanh năm 1789, góp công lớn ở trận Ngọc Hồi - Đống Đa.",
       "image": "https://firebasestorage.googleapis.com/v0/b/next-js-history.appspot.com/o/vietnam-generals%2FB%C3%B9i-%C4%90%E1%BA%AFc-Tuy%C3%AAn.jpg?alt=media&token=0110fe35-3a58-46bd-b9ff-db32a57e5fa1",
       "source": "Việt Nam Sử Lược (Trần Trọng Kim, 1919)"
@@ -51,7 +51,7 @@
     {
       "id": "07",
       "name": "Dương Đình Nghệ",
-      "slug": "duong-đinh-nghe",
+      "slug": "duong-dinh-nghe",
       "bio": "Tướng thời Tiền Ngô, đánh bại quân Nam Hán năm 931, đặt nền móng độc lập, bị Kiều Công Tiễn sát hại năm 937.",
       "image": "https://firebasestorage.googleapis.com/v0/b/next-js-history.appspot.com/o/vietnam-generals%2FD%C6%B0%C6%A1ng-%C4%90%C3%ACnh-Ngh%E1%BB%87.jpg?alt=media&token=dbdc50f3-ed31-44e8-9aab-1367b07f1417",
       "source": "Đại Việt Sử Ký Toàn Thư (Ngô Sĩ Liên, 1479)"

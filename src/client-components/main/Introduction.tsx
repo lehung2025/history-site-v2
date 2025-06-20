@@ -4,7 +4,7 @@ const Introduction = () => {
     <div className="flex flex-col items-center text-white">
       <div className="text-base sm:text-lg text-left max-w-full sm:max-w-2xl my-4 border-2 border-white bg-black/50 rounded-lg px-4 sm:px-6 md:px-8 py-4">
         <div className="text-center text-3xl">
-          <strong>Giới thiệu về trang web</strong>
+          <strong>Giới thiệu tổng quan</strong>
         </div>
         Trước hết, xin kính chào quý vị. Là một người đam mê môn lịch sử, và
         luôn muốn tìm hiểu về lịch sử nước nhà, tôi, một lập trình viên lâu năm

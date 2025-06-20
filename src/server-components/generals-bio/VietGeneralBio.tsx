@@ -32,28 +32,30 @@ const VietGeneralBio = ({ general }: VietGeneralBioProps) => {
       >
         ← Quay về trang tướng quân
       </Link>
-      <div className="px-4 w-full max-w-2xl my-4">
+      <div className="px-2 sm:px-4 w-full max-w-2xl my-4">
         <h1 className="text-2xl font-bold text-center border-2 border-white bg-black/50 rounded-lg px-4 py-2">
           {general.name}
         </h1>
-        {general.image && (
-          <div className="relative w-full aspect-[1/1] mt-4">
-            <Image
-              src={general.image}
-              alt={general.name}
-              fill
-              className="object-contain rounded-lg"
-              sizes="(max-width: 768px) 100vw, 50vw"
-              quality={60}
-              loading="lazy"
-            />
+        <div className="mt-4 flex flex-col md:flex-row gap-3 sm:gap-4">
+          {general.image && (
+            <div className="relative w-full max-w-[250px] md:max-w-none md:w-1/3 aspect-[1/1] mx-auto md:mx-0">
+              <Image
+                src={general.image}
+                alt={general.name}
+                fill
+                className="object-contain rounded-lg"
+                sizes="(max-width: 768px) 100vw, 33vw"
+                quality={60}
+                loading="lazy"
+              />
+            </div>
+          )}
+          <div className="flex-1 text-base prose prose-invert min-[360px]:text-lg">
+            <p className="leading-relaxed">{general.bio}</p>
+            <p>
+              <strong>Nguồn:</strong> {general.source}
+            </p>
           </div>
-        )}
-        <div className="mt-4 text-base prose prose-invert">
-          <p>{general.bio}</p>
-          <p>
-            <strong>Nguồn:</strong> {general.source}
-          </p>
         </div>
       </div>
     </div>
