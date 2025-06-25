@@ -1,4 +1,4 @@
-// src/types/vietGenerals.ts
+// src/types/vietGeneralsBio.ts
 export type GeneralBio = {
   id: string;
   name: string;
