@@ -1,4 +1,3 @@
-import Link from "next/link";
 
 const DynastyIntroduction = () => {
   return (
@@ -15,36 +14,21 @@ const DynastyIntroduction = () => {
           <li>
             <strong>Việt Nam</strong>: Từ Ngô Quyền đến triều Nguyễn, phản ánh
             tinh thần độc lập dân tộc.{" "}
-            <Link
-              href="/timelines/vietnam-timelines"
-              className="underline hover:text-gray-300"
-            >
-              Xem dòng thời gian
-            </Link>
+
           </li>
           <li>
             <strong>Nhật Bản</strong>: Từ thời Sengoku đến thời Edo, đánh dấu sự
             thống nhất và văn hóa độc đáo.{" "}
-            <Link
-              href="/timelines/japan-timelines"
-              className="underline hover:text-gray-300"
-            >
-              Xem dòng thời gian
-            </Link>
+
           </li>
           <li>
             <strong>Trung Quốc</strong>: Từ Tam Quốc và Nam Hán đến nhà Thanh,
             tương tác với lịch sử Việt Nam.{" "}
-            <Link
-              href="/timelines/china-timelines"
-              className="underline hover:text-gray-300"
-            >
-              Xem dòng thời gian
-            </Link>
+
           </li>
         </ul>
 
-        <h3>Lý do chọn mốc thời gian</h3>
+        <h3>Lý do chọn các triều đại trên</h3>
         <p>
           Mốc 938 (Việt Nam) và 1467 (Nhật Bản) đánh dấu các bước ngoặt lớn:
           Việt Nam giành độc lập qua trận Bạch Đằng, Nhật Bản bước vào thời
