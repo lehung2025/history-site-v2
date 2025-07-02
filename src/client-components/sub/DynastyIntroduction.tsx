@@ -78,7 +78,7 @@ const DynastyIntroduction = () => {
           <strong>Trung Quốc:</strong>
         </p>
         <ul>
-          <li>Tam Quốc: Sáng tạo văn học, di sản Tam Quốc Diễn Nghĩa.</li>
+          <li>Tam Quốc: Tam Quốc Chí của Trần Thọ .</li>
           <li>Nam Hán: Thúc đẩy giao thương Đông Nam Á.</li>
           <li>Nhà Tống: Phát minh la bàn, in ấn, dẫn đầu kinh tế.</li>
           <li>Nhà Nguyên: Mở rộng Con đường Tơ lụa.</li>
