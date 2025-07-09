@@ -1,4 +1,3 @@
-// src/server-components/generals-bio/VietGeneralBio.tsx
 import Link from "next/link";
 import Image from "next/image";
 import { GeneralBio } from "@/lib/generalBios";
@@ -12,7 +11,7 @@ const VietGeneralBio = ({ general }: VietGeneralBioProps) => {
     return (
       <div className="flex flex-col items-center text-gray-200">
         <Link
-          href="/generals/tuong-quan-viet-nam"
+          href={`/generals/tuong-quan-viet-nam/`}
           className="text-white bg-transparent border border-gray-300 hover:bg-red-700 active:bg-red-700 mt-6 px-4 py-2 rounded-lg mb-4"
         >
           ← Quay về trang tướng quân
@@ -36,26 +35,31 @@ const VietGeneralBio = ({ general }: VietGeneralBioProps) => {
         <h1 className="text-2xl font-bold text-center border-2 border-white bg-black/50 rounded-lg px-4 py-2">
           {general.name}
         </h1>
-        <div className="mt-4 flex flex-col md:flex-row gap-3 sm:gap-4">
-          {general.image && (
-            <div className="relative w-full max-w-[250px] md:max-w-none md:w-1/3 aspect-[1/1] mx-auto md:mx-0">
-              <Image
-                src={general.image}
-                alt={general.name}
-                fill
-                className="object-contain rounded-lg"
-                sizes="(max-width: 768px) 100vw, 33vw"
-                quality={60}
-                loading="lazy"
-              />
-            </div>
-          )}
-          <div className="flex-1 text-base prose prose-invert min-[360px]:text-lg">
-            <p className="leading-relaxed">{general.bio}</p>
-            <p>
-              <strong>Nguồn:</strong> {general.source}
-            </p>
+        {/* Ảnh dưới h1, trên văn bản, căn giữa ngang */}
+        {general.image && (
+          <div className="relative w-full max-w-[250px] sm:max-w-[300px] md:max-w-[350px] aspect-[1/1] mx-auto mt-4">
+            <Image
+              src={general.image}
+              alt={general.name}
+              fill
+              className="object-contain rounded-lg"
+              sizes="(max-width: 640px) 100vw, (max-width: 768px) 300px, 350px"
+              quality={60}
+              loading="lazy"
+            />
           </div>
+        )}
+        <div className="mt-4 text-base prose prose-invert min-[360px]:text-lg">
+          <p className="leading-relaxed">{general.bio}</p>
+          <p className="leading-relaxed">
+            {general.background || "Không có thông tin về xuất thân"}
+          </p>
+          <p className="leading-relaxed">
+            {general.career || "Không có thông tin về sự nghiệp"}
+          </p>
+          <p>
+            <strong>Nguồn:</strong> {general.source}
+          </p>
         </div>
       </div>
     </div>

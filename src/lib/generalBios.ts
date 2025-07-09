@@ -4,8 +4,13 @@ import { cacheGeneralBio } from "@/lib/cacheBios";
 import generalsBiosData from "@/data/generalsBio.json";
 
 export type GeneralBio = General & {
+  id: string;
+  name: string;
   slug: string;
   bio: string;
+  image: string;
+  background: string;
+  career: string;
   source: string;
 };
 
