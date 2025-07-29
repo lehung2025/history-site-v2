@@ -10,7 +10,7 @@ export type GeneralBio = General & {
   bio: string;
   image: string;
   background: string;
-  career: string;
+  career?: string;
   source: string;
 };
 
