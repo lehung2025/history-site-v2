@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   }
   return {
-    title: `${general.name} | Chronicles of Heroes`,
+    title: `${general.name} | Biên niên sử các anh hùng`,
     description: general.bio.slice(0, 160),
   };
 }

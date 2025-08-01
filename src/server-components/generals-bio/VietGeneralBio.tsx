@@ -49,7 +49,7 @@ const VietGeneralBio = ({ general }: VietGeneralBioProps) => {
             />
           </div>
         )}
-        <div className="mt-4 text-base prose prose-invert min-[360px]:text-lg">
+        <div className="mt-4 text-base border-2 border-white bg-black/50 rounded-lg px-4 sm:px-6 md:px-8 py-4 prose prose-invert min-[360px]:text-lg">
           <p className="leading-relaxed">{general.bio}</p>
           <p className="leading-relaxed">
             {general.background || "Không có thông tin về xuất thân"}
