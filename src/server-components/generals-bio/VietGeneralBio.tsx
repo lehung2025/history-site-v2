@@ -1,6 +1,6 @@
-import Link from "next/link";
 import Image from "next/image";
 import { GeneralBio } from "@/lib/generalBios";
+import BackButton from "@/client-components/sub/BackButton";
 
 type VietGeneralBioProps = {
   general: GeneralBio | null;
@@ -10,12 +10,7 @@ const VietGeneralBio = ({ general }: VietGeneralBioProps) => {
   if (!general) {
     return (
       <div className="flex flex-col items-center text-gray-200">
-        <Link
-          href={`/generals/tuong-quan-viet-nam/`}
-          className="text-white bg-transparent border border-gray-300 hover:bg-red-700 active:bg-red-700 mt-6 px-4 py-2 rounded-lg mb-4"
-        >
-          ← Quay về trang tướng quân
-        </Link>
+        <BackButton />
         <p className="text-center text-base text-red-400">
           Không tìm thấy tiểu sử nhân vật.
         </p>
@@ -25,19 +20,13 @@ const VietGeneralBio = ({ general }: VietGeneralBioProps) => {
 
   return (
     <div className="flex flex-col items-center text-gray-200">
-      <Link
-        href="/generals/tuong-quan-viet-nam"
-        className="text-white bg-transparent border border-gray-300 hover:bg-red-700 active:bg-red-700 mt-6 px-4 py-2 rounded-lg mb-4"
-      >
-        ← Quay về trang tướng quân
-      </Link>
+      <BackButton />
       <div className="px-2 sm:px-4 w-full max-w-2xl my-4">
         <h1 className="text-2xl font-bold text-center border-2 border-white bg-black/50 rounded-lg px-4 py-2">
           {general.name}
         </h1>
-        {/* Ảnh dưới h1, trên văn bản, căn giữa ngang */}
         {general.image && (
-          <div className="relative w-full max-w-[250px] sm:max-w-[300px] md:max-w-[350px] aspect-[1/1] mx-auto mt-4">
+          <div className="relative w-full max-w-[250px] sm:max-w-[300px] md:max-w-[350px] aspect-[1/1] mx-auto mt-4 border-2 border-white bg-black/50 rounded-lg">
             <Image
               src={general.image}
               alt={general.name}

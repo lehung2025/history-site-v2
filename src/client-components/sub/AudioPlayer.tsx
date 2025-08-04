@@ -12,10 +12,10 @@ const playlist = [
   { src: "/audio/Descent-Into-Cerberon.mp3" },
   { src: "/audio/guardians-at-the-gates.mp3" },
   { src: "/audio/heroic-song.mp3" },
-  { src: "/audio/lost-raiders.mp3" },
+  { src: "/audio/we-rise.mp3" },
   { src: "/audio/Twelve-Titans-Music_Act-Of-Will.mp3" },
   { src: "/audio/Twelve-Titans-Music_Protect-Us-From-Evil.mp3" },
-  { src: "/audio/we-rise.mp3" },
+  { src: "/audio/Cézame-Trailers-Return-of-the-Dragon.mp3" },
   { src: "/audio/main-theme-samanosuke.mp3" },
   { src: "/audio/two-steps-from-hell-to-glory.mp3" },
 ];
