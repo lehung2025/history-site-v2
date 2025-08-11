@@ -143,7 +143,7 @@ const Navbar = () => {
                 href="/"
                 className="text-xl md:text-2xl font-bold whitespace-nowrap"
               >
-                Biên niên sử các anh hùng
+                Biên niên sử các triều đại
               </Link>
             </div>
             <div

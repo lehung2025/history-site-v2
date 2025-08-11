@@ -34,11 +34,11 @@ const Footer = () => {
 
   const copyright =
     {
-      Vietnamese: `©${year} biên niên sử anh hùng. Mọi quyền được bảo lưu.`,
-      Japanese: `©${year} ヴァロルのクロニクル。全ての権利を保有。`,
-      Cantonese: `©${year} 勇氣編年史。保留所有權利。`,
-      English: `©${year} Chronicles of Heroes. All rights reserved.`,
-    }[clientLanguage] || `©${year} Chronicles of Heroes. All rights reserved.`;
+      Vietnamese: `©${year} biên niên sử các triều đại`,
+      Japanese: `©${year} 王朝年代記。`,
+      Cantonese: `©${year} 勇氣編年史。`,
+      English: `©${year} Chronicles of Dynasties. `,
+    }[clientLanguage] || `©${year} Chronicles of Dynasties.`;
 
   const formattedDate = currentTime
     ? currentTime.toLocaleDateString("en-US", { timeZone: "Asia/Ho_Chi_Minh" })

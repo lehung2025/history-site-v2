@@ -10,12 +10,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const general = await cachedGetGeneralBioBySlug(slug);
   if (!general) {
     return {
-      title: "Tiểu sử các nhân vật Việt Nam | Biên niên sử các anh hùng",
+      title: "Tiểu sử các nhân vật Việt Nam | biên niên sử các triều đại",
       description: "Tiểu sử nhân vật",
     };
   }
   return {
-    title: `${general.name} | Biên niên sử các anh hùng`,
+    title: `${general.name} | biên niên sử các triều đại`,
     description: general.bio.slice(0, 160),
   };
 }

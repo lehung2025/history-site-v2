@@ -4,7 +4,7 @@ import VietnameseGenerals from "@/server-components/generals/VietnameseGenerals"
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Tướng Quân Việt Nam | Biên niên sử các anh hùng",
+  title: "Tướng Quân Việt Nam | biên niên sử các triều đại",
   description: "Khám phá những vị anh hùng vĩ đại nhất của Việt Nam",
 };
 
