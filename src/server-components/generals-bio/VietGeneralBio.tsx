@@ -1,3 +1,4 @@
+// src/server-components/generals-bio/VietGeneralBio.tsx
 import Image from "next/image";
 import { GeneralBio } from "@/lib/generalBios";
 import BackButton from "@/client-components/sub/BackButton";
