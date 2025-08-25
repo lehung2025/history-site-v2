@@ -4,7 +4,7 @@ import Homepage from "@/client-components/main/HomePage";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Home | Chronicles of Heroes",
+  title: "Home | Chronicles of Dynasties",
   description:
     "Explore historical timelines, famous generals, and significant events in history.",
 };

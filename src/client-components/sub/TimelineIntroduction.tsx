@@ -31,12 +31,13 @@ const TimelineIntroduction = () => {
         <br />- <em>Nhà Đinh (968–980)</em>: Đinh Bộ Lĩnh thống nhất đất nước và
         đặt tên là Đại Cồ Việt.
         <br />- <em>Nhà Tiền Lê (980–1009)</em>: Do Lê Hoàn lập nên.
-        <br />- <em>Nhà Lý (1009–1225)</em>: Thời kỳ phát triển văn hóa và thể
-        chế, đổi tên nước thành Đại Việt năm 1054.
+        <br />- <em>Nhà Lý (1009–1225)</em>: Nổi tiếng với trận đánh Tống và vị
+        danh tướng Lý Thường Kiệt.
         <br />- <em>Nhà Trần (1226–1400)</em>: Nổi tiếng với việc đánh bại các
-        cuộc xâm lược của Mông Nguyên.
-        <br />- <em>Nhà Hồ (1400–1407)</em>: Triều đại ngắn ngủi, dẫn đến sự xâm
-        lược của nhà Minh.
+        cuộc xâm lược của Mông Nguyên. Nhân vật nổi bật nhất là tướng Trần Quốc
+        Tuấn.
+        <br />- <em>Nhà Hồ (1400–1407)</em>: Tồn tại được 7 năm, về sau bị nhà
+        Minh đánh bại.
         <br />- <em>Giao Chỉ dưới thời Minh (1407–1427)</em>: Thời kỳ bị đô hộ
         bởi nhà Minh bên Trung Quốc.
         <br />- <em>Nhà Hậu Lê (1428–1527)</em>: Do Lê Thái Tổ thành lập, sau
@@ -60,11 +61,11 @@ const TimelineIntroduction = () => {
         kiểm soát phía Bắc và chúa Nguyễn kiểm soát phía Nam.
         <br />
            - Vua Lê chỉ còn danh nghĩa, quyền lực thực sự nằm trong tay các
-        chúa. 
+        chúa.
         <br />- <em>Tây Sơn và Nhà Nguyễn (1778–1802)</em>: Nội chiến giữa nhà
         Tây Sơn và Nhà Nguyễn
         <br />- <em>Nhà Nguyễn (1802–1945)</em>: Triều đại cuối cùng, kết thúc
-        với sự thoái vị của ông Bảo Đại.
+        với sự thoái vị của ông vua Bảo Đại.
         <br />
         <br />
         <strong>Các thời kỳ ở Nhật Bản:</strong>
