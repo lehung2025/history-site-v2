@@ -40,7 +40,18 @@ const VietGeneralBio = ({ general }: VietGeneralBioProps) => {
           </div>
         )}
         <div className="mt-4 text-base border-2 border-white bg-black/50 rounded-lg px-4 sm:px-6 md:px-8 py-4 prose prose-invert min-[360px]:text-lg">
+          <strong>
+            <h2 className="leading-relaxed">Tiểu sử</h2>
+          </strong>
           <p className="leading-relaxed">{general.bio}</p>
+          <strong>
+            <h2 className="leading-relaxed">Nguồn gốc và bối cảnh lịch sử</h2>
+          </strong>
+          <p className="leading-relaxed">{general.background}</p>
+          <strong>
+            <h2 className="leading-relaxed">Sự nghiệp</h2>
+          </strong>
+          <p className="leading-relaxed">{general.career}</p>
           <p className="leading-relaxed">
             {general.background || "Không có thông tin về xuất thân"}
           </p>
