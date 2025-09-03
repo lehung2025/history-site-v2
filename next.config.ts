@@ -18,6 +18,10 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  experimental: {
+    clientSegmentCache: true,
+    useCache: true
+  }
 };
 
 export default nextConfig;
