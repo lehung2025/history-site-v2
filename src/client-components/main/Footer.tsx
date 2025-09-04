@@ -28,15 +28,15 @@ const Footer = () => {
     {
       Vietnamese: "Liên hệ",
       Japanese: "連絡",
-      Cantonese: "聯絡",
+      Cantonese: "聯繫",
       English: "Contact",
     }[clientLanguage] || "Contact";
 
   const copyright =
     {
       Vietnamese: `©${year} biên niên sử các triều đại`,
-      Japanese: `©${year} 王朝年代記。`,
-      Cantonese: `©${year} 勇氣編年史。`,
+      Japanese: `©${year} 王朝の年代記。`,
+      Cantonese: `©${year} 朝代編年史。`,
       English: `©${year} Chronicles of Dynasties. `,
     }[clientLanguage] || `©${year} Chronicles of Dynasties.`;
 
