@@ -114,11 +114,31 @@
       "id": "12",
       "name": "Hồ Nguyên Trừng",
       "slug": "ho-nguyen-trung",
-      "bio": "chữ Hán: 胡元澄(1374–1446),  biểu tự Mạnh Nguyên (孟源), hiệu Nam Ông (南翁), sau đổi tên thành Lê Trừng (黎澄), là một nhà chính trị, quân sự, tôn thất hoàng gia Đại Ngu, con trưởng của vua Hồ Quý Ly và là hoàng huynh vua Hồ Hán Thương. Ông làm tể tướng triều Hồ, có nhiều đóng góp về khoa học quân sự và là chỉ huy chính của quân đội Việt trong kháng chiến chống Minh (1406–1407)",
+      "bio": "chữ Hán: 胡元澄(1374 – 1446),  biểu tự Mạnh Nguyên (孟源), hiệu Nam Ông (南翁), sau đổi tên thành Lê Trừng (黎澄), là một nhà chính trị, quân sự, tôn thất hoàng gia Đại Ngu, con trưởng của vua Hồ Quý Ly và là hoàng huynh vua Hồ Hán Thương. Ông làm tể tướng triều Hồ, có nhiều đóng góp về khoa học quân sự và là chỉ huy chính của quân đội Việt trong kháng chiến chống Minh (1406–1407)",
       "image": "https://firebasestorage.googleapis.com/v0/b/next-js-history.appspot.com/o/vietnam-generals%2FH%E1%BB%93-Nguy%C3%AAn-Tr%E1%BB%ABng.jpg?alt=media&token=bd42464d-9502-462e-8e7e-6a64cac94a5f",
       "background": "Cuối thời Trần, Hồ Quý Ly làm Phụ chính Thái sư, nắm mọi việc trong triều, Nguyên Trừng nhận chức Tư đồ. Sau khi nhà Hồ thành lập, ông nhận chức Tả Tướng quốc, cùng với chú là Hữu Tướng quốc Hồ Quý Tỳ đứng hàng Tể tướng. Cuối năm 1406, Nhà Minh xâm lược Đại Ngu, vua Hồ Hán Thương sai Tả Tướng quốc Trừng cầm quân chống lại. Đại Việt Sử ký Toàn thư, bộ quốc sử Đại Việt thời Lê, kể Hồ Nguyên Trừng đã trực tiếp chỉ huy nhiều trận đánh lớn như trận Lãnh Kinh (1406), trận phòng thủ Đa Bang, cùng các trận phản công sông Lô và cửa Hàm Tử (1407)",
       "career": "Hồ Nguyên Trừng, trước để họ Lê, người huyện Vĩnh Phúc, lộ Thanh Hoa (nay thuộc tỉnh Thanh Hóa). Theo Minh thực lục, toàn tước vị của Hồ Nguyên Trừng khi bị bắt là: Thôi Thành Thủ Chánh Dực Tán Hoằng Hóa công thần, Vân Truân Trấn Kiêm Quy Hóa Trấn Gia Hưng đẳng Trấn Chư quân sự Tiết Độ đại sứ, Thao Giang Quản nội Quan sát xử Trí đẳng sử, Sử Trì Tiết Vân Truân Quy Hóa Gia Hưng Đẳng Trấn Chư quân sự, Lĩnh Đông Lộ Thiên Trường Phủ Lộ Đại Đô đốc phủ, Đặc tiến, Khai phủ nghi đồng tam ti, Nhập nội Kiểm giáo, Tả tướng quốc, Bình chương quân quốc sự, Tứ Kim Ngư Đại, Thượng trụ quốc, Vệ Quốc Đại Vương.",
       "source": "Quốc sử quán triều Nguyễn 1998, tr. 335-336"
+    },
+    {
+      "id": "13",
+      "name": "Hồ Quý Ly",
+      "slug": "ho-quy-ly",
+      "bio": "chữ Hán: 胡季犛(1336 – 1407), tên chữ Nhất Nguyên (一元), là vị hoàng đế đầu tiên của nhà nước Đại Ngu trong lịch sử Việt Nam. Ông ở ngôi vị Hoàng đế từ năm 1400 đến năm 1401 tự xưng là Quốc Tổ Chương Hoàng (國祖章皇), sau đó giữ ngôi Thái thượng hoàng từ năm 1401 đến năm 1407",
+      "image": "https://firebasestorage.googleapis.com/v0/b/next-js-history.appspot.com/o/vietnam-generals%2FH%E1%BB%93-Qu%C3%BD-Ly.jpg?alt=media&token=26c8a8f8-d4f4-4639-b80b-8aec94789fac",
+      "background": "",
+      "career": "",
+      "source": "Khâm định Việt sử Thông giám cương mục"
+    },
+    {
+      "id": "14",
+      "name": "Kiều Công Hãn",
+      "slug": "kieu-cong-han",
+      "bio": "chữ Hán: 矯公罕(? - 967), là thứ sử Phong Châu cuối thời Ngô, sau đó ông chiếm giữ thêm 2 châu lân cận là Hào Châu, Thái Châu; tự xưng là Kiều Tam Chế (矫三制) và trở thành một thủ lĩnh thời loạn 12 sứ quân trong lịch sử Việt Nam. Ông là một sứ quân thuộc thế lực họ Kiều, từng tranh chấp ngôi vua khi Ngô Xương Văn mất và cuối cùng bị lực lượng của Đinh Bộ Lĩnh đánh dẹp trong quá trình thống nhất Đại Cồ Việt.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/next-js-history.appspot.com/o/vietnam-generals%2FKi%E1%BB%81u-C%C3%B4ng-H%C3%A3n.PNG?alt=media&token=350c643e-f3f8-4b36-830f-704ca11c185d",
+      "background": "Kiều Công Hãn xuất thân từ một dòng họ có thế lực lớn ở Phong Châu (Phú Thọ). Ông là con của Kiều Công Chuẩn, anh trai sứ quân Kiều Thuận và là cháu nội của Kiều Công Tiễn, người Phong Châu, vị Tiết độ sứ cuối cùng trong lịch sử Việt Nam thời Tự chủ. Việt sử kỷ yếu chép Kiều Công Hãn còn có tên gọi khác là Kiều Tri Hựu",
+      "career": "Làm thứ sử Phong Châu, Kiều Công Hãn cho xây thành Tam Giang rồi thành Phù Lập (ở gần ngã ba Bạch Hạc). Khi nhà Ngô mất lực lượng của ông trở thành một sứ quân trong thời loạn 12 sứ quân. Từ vị thế thủ lĩnh Phong Châu, Kiều Công Hãn chiếm 2 châu lân cận là Hào Châu và Thái Châu để mở rộng địa bàn, Kiều Công Hãn xưng là Kiều Tam Chế. Ngay từ những ngày đâu gây dựng, Kiều Công Hãn liên tục mở rộng địa bàn chiếm đóng sang khu vực tả ngạn sông Lô bằng những cuộc chiến với sứ quân Nguyễn Khoan tại khu vực thuộc các huyện Sông Lô, Lập Thạch (Vĩnh Phúc) ngày nay",
+      "source": "Việt sử kỷ yếu, tác giả Trần Xuân Sinh, NXB Hải Phòng, trang 77"
     },
     {
       "id": "20",
