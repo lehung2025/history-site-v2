@@ -31,7 +31,7 @@ const Timeline = () => {
             />
           </div>
           <p className="mt-2 text-xl text-center border-2 border-white bg-black/50 rounded-md px-2 py-1 group-hover:bg-yellow-400 group-active:bg-yellow-400 group-hover:text-black group-active:text-black transition-all duration-300">
-            Việt Nam (938 - 1945, luôn gắn với Trung Quốc)
+            Việt Nam (938 - 1945)
           </p>
         </Link>
         <Link href="/timelines/japan-timelines" className="group rounded-lg">
@@ -46,7 +46,7 @@ const Timeline = () => {
             />
           </div>
           <p className="mt-2 text-xl text-center border-2 border-white bg-black/50 rounded-md px-2 py-1 group-hover:bg-orange-400 group-active:bg-orange-400 group-hover:text-black group-active:text-black transition-all duration-300">
-            Nhật Bản (1467 - 1868, đảo quốc)
+            Nhật Bản (1467 - 1868)
           </p>
         </Link>
         <Link href="/timelines/china-timelines" className="group rounded-lg">
@@ -61,7 +61,7 @@ const Timeline = () => {
             />
           </div>
           <p className="mt-2 text-xl text-center border-2 border-white bg-black/50 rounded-md px-2 py-1 group-hover:bg-red-900 group-active:bg-red-900 group-hover:text-black group-active:text-black transition-all duration-300">
-            Trung Quốc (từ 220 tới 280, sau đó là từ Nam Hán trở đi)
+            Trung Quốc (220 - 1911)
           </p>
         </Link>
       </div>
