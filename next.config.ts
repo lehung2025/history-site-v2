@@ -17,6 +17,7 @@ const nextConfig: NextConfig = {
         pathname: "/v0/b/next-js-history.appspot.com/o/**",
       },
     ],
+    qualities: [25, 50, 70, 75]
   },
   experimental: {
     clientSegmentCache: true,
