@@ -158,7 +158,7 @@ const AudioPlayer: React.FC = () => {
           }
         />
       </motion.div>
-      <div className="flex items-center gap-2 flex-grow">
+      <div className="flex items-center gap-2 grow">
         <input
           type="range"
           min="0"
