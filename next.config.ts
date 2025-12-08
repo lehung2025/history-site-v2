@@ -15,10 +15,10 @@ const nextConfig: NextConfig = {
         hostname: "firebasestorage.googleapis.com",
         port: "",
         pathname: "/v0/b/next-js-history.appspot.com/o/**",
-        search: "?**", // or search: "?**" in older Next.js versions
+        search: "", 
       },
     ],
-    qualities: [25, 50, 70, 75],
+    qualities: [25, 50, 60, 70, 75],
   },
   experimental: {
     useCache: true,
